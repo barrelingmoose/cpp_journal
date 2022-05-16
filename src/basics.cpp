@@ -5,6 +5,9 @@
 
 using namespace std; 
 
+// To Compile put following commands in terminal:
+// g++ file_name.cpp -o executable_name
+// ./executable_name
 
 // Adding a comment for funsies
 
@@ -13,10 +16,6 @@ int a = 10;
 // Showing String Creation 
 
 string statement = "String formatting ";
-// Declare Pointer Variable 
-// string *pStatement; 
-// // Define address held in variable 
-// pStatement = &statement
 
 // Function Prototype 
 int second_fun(int x); 
