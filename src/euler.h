@@ -48,6 +48,7 @@ int fibonacci(){
 }
 
 // Archive ID #3 
+// Brute Force Method 
 long long int primeFactors(long long int x){
     long long int i = 2; 
     long int test = 0; 
