@@ -49,7 +49,7 @@ int fibonacci(){
 
 // Archive ID #3 
 // Brute Force Method 
-// Test Git
+// Test Git 2
 long long int primeFactors(long long int x){
     long long int i = 2; 
     long int test = 0; 
