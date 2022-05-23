@@ -12,5 +12,9 @@ int main(){
 
    long long int prime = primeFactors(600851475143);
    cout<<"Largest Prime Factor of Vale: "<<prime<<endl; 
+
+   int palindrome = returnPalindrome(100,999); 
+   cout<<palindrome<<endl; 
+   return 0; 
 }
 

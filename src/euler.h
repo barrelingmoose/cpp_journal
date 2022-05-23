@@ -7,6 +7,7 @@ Function Protoypes
 int multiples3and5(); 
 int fibonacci(); 
 long long int primeFactors(long long int x); 
+int palindrome(int p1, int p2); 
 /*************************************************************
  Project Euler Answers 
  *************************************************************/
@@ -74,3 +75,25 @@ long long int primeFactors(long long int x){
     return prime; 
 }
 
+// Archive ID #4 - Still has major bug 
+int returnPalindrome(int p1, int p2){
+    int palindrome_n = 0; 
+    for(int i = p2; i>=p1;i--){
+        for (int j = p2; j>=p1; j--){
+            int rem = 0; 
+            int numReversed = 0; 
+            int product = i*j; 
+            int step = product;
+            while ( step!=0){
+                rem = step%10; 
+                numReversed = numReversed*10 + rem; 
+                step/=10; 
+            }
+            if (numReversed==product){
+                palindrome_n = numReversed;
+                break; 
+            }
+        }
+    }
+    return palindrome_n; 
+}
